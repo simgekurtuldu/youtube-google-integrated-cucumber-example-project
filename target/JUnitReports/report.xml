@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="23.323">
+    <testcase classname="Random alınan sayıya göre youtube'da ilgili videonun birinci dk'sına gitme" name="Google'da random sayi aratma" time="22.94">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Chrome tarayicisi acilmis olmali......................................passed
+When Random number arattigimda..............................................passed
+Then Random number sayfasi acilmis olmali...................................passed
+When Min alanina 0 yazdigim zaman...........................................passed
+And Olustur butonuna tikladigimda...........................................passed
+Then Sayi guncellenmis olmali...............................................passed
+Given Random sayi alinmis olmali............................................passed
+When Yeni sekmede youtube'a gidilmeli.......................................passed
+Then Youtube acilmis olmalidir..............................................passed
+When Sayi 0-5 araliginda ise Matematik konu anlatimi arat...................passed
+Then Matematik konu anlatimi videolari gelmis olmalidir.....................passed
+When Sayi 5-10 araliginda ise Turkce konu anlatimi arat.....................passed
+Then Turkce konu anlatimi videolari gelmis olmalidir........................passed
+When Basligi tyt, Tyt ya da TYT kelimesini iceren ve playlist olmayan ilk sonuca tiklandiginda.undefined
+Then Video acilmis olmalidir................................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
